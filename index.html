@@ -6,20 +6,26 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Pomodoro Timer</title>
 
+  <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="app.css">
 
 </head>
 <body>
 
-  <section class="display">
-    <h1>00:00</h1>
-  </section>
-
-  <section class="controls">
-    <button>Start/Pause</button>
-    <button>Reset</button>
-  </section>
-
+  <div class="page-wrap">
+    <div class="timer">
+    
+      <section class="display">
+        <h1>00:00</h1>
+      </section>
+    
+      <section class="controls">
+        <div class="button pause">❚❚</div>
+        <div class="button reset">Reset</div>
+      </section>
+    
+    </div>
+  </div>
 
   <script src="app.js"></script>
 </body>
